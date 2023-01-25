@@ -1,0 +1,34 @@
+/* Change all text to Arial font */
+* {
+    font-family: Arial;
+  }
+  
+  /* Change headers to Geneva font and different color */
+  h1, h3 {
+    font-family: Geneva;
+    color: #00bfff;
+  }
+  
+  /* Add background color to body */
+  body {
+    background-color: #f2f2f2;
+  }
+  
+  /* Add gradient to article element */
+  article {
+    background: linear-gradient(to bottom, #ffd89b, #ffa066);
+  }
+  
+  /* Add background image to header, set background-size to cover, and change text color to white */
+  header {
+    background-image: url(path/to/image);
+    background-size: cover;
+    color: white;
+  }
+  
+  /* Change link styles */
+  a {
+    color: lightseagreen;
+    text-decoration: none;
+  }
+  
